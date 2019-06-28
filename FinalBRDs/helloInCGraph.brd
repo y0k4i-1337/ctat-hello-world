@@ -68,15 +68,15 @@
         <text>state10</text>
         <uniqueID>11</uniqueID>
         <dimension>
-            <x>355</x>
-            <y>411</y>
+            <x>358</x>
+            <y>416</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state11</text>
         <uniqueID>12</uniqueID>
         <dimension>
-            <x>355</x>
+            <x>403</x>
             <y>521</y>
         </dimension>
     </node>
@@ -84,15 +84,15 @@
         <text>state12</text>
         <uniqueID>13</uniqueID>
         <dimension>
-            <x>355</x>
-            <y>631</y>
+            <x>409</x>
+            <y>632</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state13</text>
         <uniqueID>14</uniqueID>
         <dimension>
-            <x>355</x>
+            <x>413</x>
             <y>741</y>
         </dimension>
     </node>
@@ -100,8 +100,112 @@
         <text>Done_2</text>
         <uniqueID>15</uniqueID>
         <dimension>
-            <x>354</x>
+            <x>412</x>
             <y>851</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state32</text>
+        <uniqueID>33</uniqueID>
+        <dimension>
+            <x>186</x>
+            <y>107</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state33</text>
+        <uniqueID>34</uniqueID>
+        <dimension>
+            <x>40</x>
+            <y>104</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state34</text>
+        <uniqueID>35</uniqueID>
+        <dimension>
+            <x>131</x>
+            <y>214</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state35</text>
+        <uniqueID>36</uniqueID>
+        <dimension>
+            <x>116</x>
+            <y>289</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state36</text>
+        <uniqueID>37</uniqueID>
+        <dimension>
+            <x>247</x>
+            <y>287</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state37</text>
+        <uniqueID>38</uniqueID>
+        <dimension>
+            <x>217</x>
+            <y>353</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state38</text>
+        <uniqueID>39</uniqueID>
+        <dimension>
+            <x>68</x>
+            <y>522</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state39</text>
+        <uniqueID>40</uniqueID>
+        <dimension>
+            <x>144</x>
+            <y>520</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state40</text>
+        <uniqueID>41</uniqueID>
+        <dimension>
+            <x>236</x>
+            <y>520</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state41</text>
+        <uniqueID>42</uniqueID>
+        <dimension>
+            <x>307</x>
+            <y>629</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state42</text>
+        <uniqueID>43</uniqueID>
+        <dimension>
+            <x>300</x>
+            <y>737</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state43</text>
+        <uniqueID>44</uniqueID>
+        <dimension>
+            <x>290</x>
+            <y>517</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state44</text>
+        <uniqueID>45</uniqueID>
+        <dimension>
+            <x>344</x>
+            <y>517</y>
         </dimension>
     </node>
     <edge>
@@ -128,7 +232,10 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '#include &lt;stdio.h&gt;' in the highlighted field.</hintMessage>
+            <hintMessage>Voc&#234; precisa incluir uma biblioteca para poder utilizar as fun&#231;&#245;es de escrita de dados.</hintMessage>
+            <hintMessage>Uma biblioteca pode ser inclu&#237;da adicionando-se a diretiva '#include', seguida de um espa&#231;o e a biblioteca desejada.</hintMessage>
+            <hintMessage>A biblioteca com fun&#231;&#245;es de escrita de dados &#233; a '&amp;lt;stdio.h&amp;gt;'.</hintMessage>
+            <hintMessage>Voc&#234; precisa incluir a biblioteca 'stdio.h'. Insira '#include &amp;lt;stdio.h&amp;gt;' no campo destacado.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -248,7 +355,10 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter 'main(int argc, char *argv[])' in the highlighted field.</hintMessage>
+            <hintMessage>Ap&#243;s o tipo de retorno, voc&#234; deve inserir o nome da fun&#231;&#227;o, seguida pela lista de par&#226;metros.</hintMessage>
+            <hintMessage>O nome da fun&#231;&#227;o principal do programa &#233; 'main'.</hintMessage>
+            <hintMessage>A lista de par&#226;metros &#233; dada entre par&#234;nteses '(...)'. Os '...' devem ser substitu&#237;dos por alguma lista aceita pela linguagem, incluindo a lista vazia.</hintMessage>
+            <hintMessage>Insira 'main(void)' no campo destacado, para indicar que nenhum par&#226;metro ser&#225; utilizado. Outras op&#231;&#245;es seriam 'main()', 'main(int argc, char *argv[])' e 'main(int argc, char **argv)'.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -310,8 +420,10 @@ equals(input, "main(int argc, char **argv)"))</matcherParameter>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Please enter '{' in the highlighted field.</hintMessage>
+            <successMessage>Muito bem! Agora escreva os comandos de escrita da mensagem e sa&#237;da da fun&#231;&#227;o.</successMessage>
+            <hintMessage>Insira o s&#237;mbolo de in&#237;cio de bloco de comandos.</hintMessage>
+            <hintMessage>O s&#237;mbolo que indica in&#237;cio de um bloco de comandos, ou fun&#231;&#227;o neste caso, &#233; o '{'.</hintMessage>
+            <hintMessage>Insira '{' no campo destacado.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -371,7 +483,10 @@ equals(input, "main(int argc, char **argv)"))</matcherParameter>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter 'printf("Hello, World!\n");' in the highlighted field.</hintMessage>
+            <hintMessage>Utilize uma fun&#231;&#227;o para escrever a mensagem 'Hello, World!' na sa&#237;da padr&#227;o (tela). Deve haver uma quebra de linha ap&#243;s a mensagem.</hintMessage>
+            <hintMessage>Voc&#234; pode utilizar as fun&#231;&#245;es 'printf' ou 'puts'.</hintMessage>
+            <hintMessage>Para escrever a mensagem utilizando 'printf', insira 'printf("Hello, World!\n");' no campo destacado. O '\n' indica quebra de linha.
+Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' no campo destacado. Esta fun&#231;&#227;o adiciona uma quebra de linha automaticamente ao final da mensagem.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -431,7 +546,10 @@ equals(input, "main(int argc, char **argv)"))</matcherParameter>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter 'return 0;' in the highlighted field.</hintMessage>
+            <hintMessage>Escreva o comando para sair da fun&#231;&#227;o, retornando o c&#243;digo referente a 'sucesso'.</hintMessage>
+            <hintMessage>O c&#243;digo em caso de sucesso &#233; o n&#250;mero '0'.</hintMessage>
+            <hintMessage>A fun&#231;&#227;o 'return' pode ser utilizada para sair imediatamente da fun&#231;&#227;o, retornando um valor especificado.</hintMessage>
+            <hintMessage>Insira 'return 0;' no campo destacado.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -490,8 +608,10 @@ equals(input, "main(int argc, char **argv)"))</matcherParameter>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Please enter '}' in the highlighted field.</hintMessage>
+            <successMessage>Parab&#233;ns! Voc&#234; escreveu seu primeiro programa em C!</successMessage>
+            <hintMessage>Insira o s&#237;mbolo de fim de bloco de comandos.</hintMessage>
+            <hintMessage>O s&#237;mbolo que indica fim de um bloco de comandos, ou fun&#231;&#227;o neste caso, &#233; o '}'.</hintMessage>
+            <hintMessage>Insira '}' no campo destacado.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -585,6 +705,790 @@ equals(input, "main(int argc, char **argv)"))</matcherParameter>
         </rule>
         <sourceID>14</sourceID>
         <destID>15</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>84</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>a41c21a5-7ba2-0072-c41e-e4cb18500f3f</transaction_id>
+                    <Selection>
+                        <value>includeLib1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>#include&lt;stdio.h&gt;</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Voc&#234; pode melhorar seu c&#243;digo inserindo um espa&#231;o entre a diretiva #include e &amp;lt;stdio.h&amp;gt;.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '#include&lt;stdio.h&gt;' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">includeLib1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">#include&lt;stdio.h&gt;</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>1</sourceID>
+        <destID>33</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>86</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>b1e58151-96fb-b004-ae5b-a43ef1eb2ea1</transaction_id>
+                    <Selection>
+                        <value>includeLib1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>#include &lt;stdlib.h&gt;</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Voc&#234; deve incluir uma biblioteca, mas n&#227;o essa. Voc&#234; precisa de uma biblioteca para entrada (input) e sa&#237;da (output) de dados.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '#include &lt;stdlib.h&gt;' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">includeLib1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>RegexMatcher</matcherType>
+                        <matcherParameter name="single">^#include.+(?:((?!stdio).)+)</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>1</sourceID>
+        <destID>34</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>92</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>c2680965-9a59-e676-db29-8b9c87916881</transaction_id>
+                    <Selection>
+                        <value>returnType</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>float</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Este n&#227;o &#233; o tipo de retorno esperado.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'float' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">returnType</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExpressionMatcher</matcherType>
+                        <matcherParameter name="InputExpression">not(equals(input, "int"))</matcherParameter>
+                        <matcherParameter name="relation">boolean</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>2</sourceID>
+        <destID>35</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>96</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>f1046856-e3f0-9568-97a0-9b73dd5cc6ec</transaction_id>
+                    <Selection>
+                        <value>functionName</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>main ()</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Os guias de estilos e boas pr&#225;ticas recomendam inserir a lista de par&#226;metros logo ap&#243;s o nome da fun&#231;&#227;o, sem espa&#231;o entre eles. Vamos tentar?</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'main ()' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">functionName</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>RegexMatcher</matcherType>
+                        <matcherParameter name="single">^main\s+\(.+$</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>3</sourceID>
+        <destID>36</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>99</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>f90ad20d-083e-c91d-023c-0fcc77fd83f7</transaction_id>
+                    <Selection>
+                        <value>functionName</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>othername</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Este n&#227;o &#233; o nome esperado para a fun&#231;&#227;o principal de um programa.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'othername' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">functionName</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExpressionMatcher</matcherType>
+                        <matcherParameter name="InputExpression">not(regExMatch("^main\s?\(.+$", input))</matcherParameter>
+                        <matcherParameter name="relation">boolean</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>3</sourceID>
+        <destID>37</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>104</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>9862a32a-ef83-a258-6a5e-e48bac06f221</transaction_id>
+                    <Selection>
+                        <value>openBrackets</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>[</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Este n&#227;o &#233; o s&#237;mbolo de in&#237;cio de bloco de comandos.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter '[' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">openBrackets</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExpressionMatcher</matcherType>
+                        <matcherParameter name="InputExpression">not(equals(input, "{"))</matcherParameter>
+                        <matcherParameter name="relation">boolean</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>10</sourceID>
+        <destID>38</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>110</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>baf3366c-ab70-fc5b-ee96-a0dfb07330dc</transaction_id>
+                    <Selection>
+                        <value>command1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>puts ("Hello, World!");</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Os guias de estilos e boas pr&#225;ticas recomendam inserir a lista de par&#226;metros logo ap&#243;s o nome da fun&#231;&#227;o, sem espa&#231;o entre eles. Vamos tentar?</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'puts ("Hello, World!");' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">command1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>RegexMatcher</matcherType>
+                        <matcherParameter name="single">^(puts|printf)\s+\(.+\).?$</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>11</sourceID>
+        <destID>39</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>112</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>68c904c2-b074-8398-f82f-324cd93d3e6b</transaction_id>
+                    <Selection>
+                        <value>command1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>puts("Hello, World!")</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Parece que voc&#234; se esqueceu de inserir ';' ao final do comando.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'puts("Hello, World!")' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">command1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>RegexMatcher</matcherType>
+                        <matcherParameter name="single">^(?:puts|printf)\(.+\)$</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>11</sourceID>
+        <destID>40</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>114</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>2ad7311e-5189-4b0e-e142-225a80edfd8b</transaction_id>
+                    <Selection>
+                        <value>command1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>unexpected();</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Hummm...Esse n&#227;o &#233; um comando esperado.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'unexpected();' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">command1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>RegexMatcher</matcherType>
+                        <matcherParameter name="single">^(?:((?!puts\s*|printf\s*).).*)$</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>11</sourceID>
+        <destID>41</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>120</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>c1ae796d-a4c1-4056-f42f-72ad30fd30a0</transaction_id>
+                    <Selection>
+                        <value>command2</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>return 0</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Parece que voc&#234; se esqueceu de inserir ';' ao final do comando.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'return 0' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">command2</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">return 0</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>12</sourceID>
+        <destID>42</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>122</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>e349e2a7-39f5-8f79-5465-c7dd66844afe</transaction_id>
+                    <Selection>
+                        <value>closeBrackets</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>]</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Este n&#227;o &#233; o s&#237;mbolo de fim de bloco de comandos.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter ']' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">closeBrackets</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExpressionMatcher</matcherType>
+                        <matcherParameter name="InputExpression">not(equals(input, "}"))</matcherParameter>
+                        <matcherParameter name="relation">boolean</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>13</sourceID>
+        <destID>43</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>128</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>fcdb011f-f435-5e19-8a84-4e920ce0b5c4</transaction_id>
+                    <Selection>
+                        <value>command1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>printf("Hello, World!");</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Lembre-se de inserir uma quebra de linha ao fim da mensagem.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'printf("Hello, World!").' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">command1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">printf("Hello, World!");</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>11</sourceID>
+        <destID>44</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>131</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>3739f0f8-5683-fbfa-1ca5-d9c2e6a51fd5</transaction_id>
+                    <Selection>
+                        <value>command1</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>puts("Wrong text");</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Mensagem errada, talvez? Aten&#231;&#227;o &#224; pontua&#231;&#227;o e letras mai&#250;sculas. A mensagem a ser exibida &#233; 'Hello, World!'.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'puts("Wrong text");' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">command1</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>RegexMatcher</matcherType>
+                        <matcherParameter name="single">^(puts|printf)\("(?:((?!Hello, World!).)*)</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>11</sourceID>
+        <destID>45</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <EdgesGroups ordered="true"></EdgesGroups>
