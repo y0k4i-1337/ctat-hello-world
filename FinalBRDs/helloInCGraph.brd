@@ -208,6 +208,14 @@
             <y>662</y>
         </dimension>
     </node>
+    <node locked="false" doneState="false">
+        <text>state45</text>
+        <uniqueID>46</uniqueID>
+        <dimension>
+            <x>976</x>
+            <y>666</y>
+        </dimension>
+    </node>
     <edge>
         <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
             <studentHintRequest></studentHintRequest>
@@ -295,7 +303,10 @@
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter 'int' in the highlighted field.</hintMessage>
+            <hintMessage>Declare o tipo de retorno da fun&#231;&#227;o principal do seu programa.</hintMessage>
+            <hintMessage>Os tipos b&#225;sicos s&#227;o 'int', 'float', 'char' e 'void', por exemplo.</hintMessage>
+            <hintMessage>A fun&#231;&#227;o principal utiliza o tipo 'int' como tipo de retorno.</hintMessage>
+            <hintMessage>Insira 'int' no campo destacado.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -381,7 +392,8 @@
                         <matcherType>ExpressionMatcher</matcherType>
                         <matcherParameter name="InputExpression">or(equals(input, "main()"),
 equals(input, "main(int argc, char *argv[])"),
-equals(input, "main(int argc, char **argv)"))</matcherParameter>
+equals(input, "main(int argc, char **argv)"),
+equals(input, "main(void)"))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -993,7 +1005,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">not(regExMatch("^main\s?\(.+$", input))</matcherParameter>
+                        <matcherParameter name="InputExpression">not(regExMatch("^main\s*\(.+$", input))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>
@@ -1491,15 +1503,84 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         <destID>45</destID>
         <traversalCount>0</traversalCount>
     </edge>
+    <edge>
+        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>136</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>01d40f29-05b0-5cf8-7895-7c0bb5cedd4b</transaction_id>
+                    <Selection>
+                        <value>command2</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateTextField</value>
+                    </Action>
+                    <Input>
+                        <value>exit</value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>Hummm...Esse n&#227;o &#233; um comando esperado.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please enter 'exit' in the highlighted field.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Buggy Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">command2</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateTextField</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExpressionMatcher</matcherType>
+                        <matcherParameter name="InputExpression">not(regExMatch("^return\s*", input))</matcherParameter>
+                        <matcherParameter name="relation">boolean</matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>basic-functions c-program-beginner</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>12</sourceID>
+        <destID>46</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
     <productionRule opportunities="1">
         <ruleName>primitive-types</ruleName>
         <productionSet>c-program-beginner</productionSet>
         <label>Conhece tipos primitivos</label>
+        <hintMessage>Declare o tipo de retorno da fun&#231;&#227;o principal do seu programa.</hintMessage>
+        <hintMessage>Os tipos b&#225;sicos s&#227;o 'int', 'float', 'char' e 'void', por exemplo.</hintMessage>
+        <hintMessage>A fun&#231;&#227;o principal utiliza o tipo 'int' como tipo de retorno.</hintMessage>
+        <hintMessage>Insira 'int' no campo destacado.</hintMessage>
     </productionRule>
     <productionRule opportunities="2">
         <ruleName>basic-functions</ruleName>
         <productionSet>c-program-beginner</productionSet>
         <label>Conhece fun&#231;&#245;es b&#225;sicas</label>
+        <hintMessage>Escreva o comando para sair da fun&#231;&#227;o, retornando o c&#243;digo referente a 'sucesso'.</hintMessage>
+        <hintMessage>O c&#243;digo em caso de sucesso &#233; o n&#250;mero '0'.</hintMessage>
+        <hintMessage>A fun&#231;&#227;o 'return' pode ser utilizada para sair imediatamente da fun&#231;&#227;o, retornando um valor especificado.</hintMessage>
+        <hintMessage>Insira 'return 0;' no campo destacado.</hintMessage>
     </productionRule>
     <productionRule opportunities="1">
         <ruleName>include-lib</ruleName>
