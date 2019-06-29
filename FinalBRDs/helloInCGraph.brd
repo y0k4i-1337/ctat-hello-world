@@ -36,151 +36,151 @@
         <text>EstadoInicial</text>
         <uniqueID>1</uniqueID>
         <dimension>
-            <x>190</x>
-            <y>6</y>
+            <x>293</x>
+            <y>21</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state1</text>
         <uniqueID>2</uniqueID>
         <dimension>
-            <x>363</x>
-            <y>108</y>
+            <x>577</x>
+            <y>109</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state2</text>
         <uniqueID>3</uniqueID>
         <dimension>
-            <x>363</x>
-            <y>218</y>
+            <x>579</x>
+            <y>211</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state9</text>
         <uniqueID>10</uniqueID>
         <dimension>
-            <x>364</x>
-            <y>301</y>
+            <x>580</x>
+            <y>349</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state10</text>
         <uniqueID>11</uniqueID>
         <dimension>
-            <x>358</x>
-            <y>416</y>
+            <x>574</x>
+            <y>464</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state11</text>
         <uniqueID>12</uniqueID>
         <dimension>
-            <x>403</x>
-            <y>521</y>
+            <x>887</x>
+            <y>553</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state12</text>
         <uniqueID>13</uniqueID>
         <dimension>
-            <x>409</x>
-            <y>632</y>
+            <x>767</x>
+            <y>781</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state13</text>
         <uniqueID>14</uniqueID>
         <dimension>
-            <x>413</x>
-            <y>741</y>
+            <x>775</x>
+            <y>950</y>
         </dimension>
     </node>
     <node locked="false" doneState="true">
         <text>Done_2</text>
         <uniqueID>15</uniqueID>
         <dimension>
-            <x>412</x>
-            <y>851</y>
+            <x>774</x>
+            <y>1060</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state32</text>
         <uniqueID>33</uniqueID>
         <dimension>
-            <x>186</x>
-            <y>107</y>
+            <x>106</x>
+            <y>279</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state33</text>
         <uniqueID>34</uniqueID>
         <dimension>
-            <x>40</x>
-            <y>104</y>
+            <x>110</x>
+            <y>121</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state34</text>
         <uniqueID>35</uniqueID>
         <dimension>
-            <x>131</x>
-            <y>214</y>
+            <x>290</x>
+            <y>199</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state35</text>
         <uniqueID>36</uniqueID>
         <dimension>
-            <x>116</x>
-            <y>289</y>
+            <x>267</x>
+            <y>251</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state36</text>
         <uniqueID>37</uniqueID>
         <dimension>
-            <x>247</x>
-            <y>287</y>
+            <x>870</x>
+            <y>258</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state37</text>
         <uniqueID>38</uniqueID>
         <dimension>
-            <x>217</x>
-            <y>353</y>
+            <x>163</x>
+            <y>402</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state38</text>
         <uniqueID>39</uniqueID>
         <dimension>
-            <x>68</x>
-            <y>522</y>
+            <x>179</x>
+            <y>494</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state39</text>
         <uniqueID>40</uniqueID>
         <dimension>
-            <x>144</x>
-            <y>520</y>
+            <x>179</x>
+            <y>560</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state40</text>
         <uniqueID>41</uniqueID>
         <dimension>
-            <x>236</x>
-            <y>520</y>
+            <x>240</x>
+            <y>691</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state41</text>
         <uniqueID>42</uniqueID>
         <dimension>
-            <x>307</x>
+            <x>706</x>
             <y>629</y>
         </dimension>
     </node>
@@ -188,24 +188,24 @@
         <text>state42</text>
         <uniqueID>43</uniqueID>
         <dimension>
-            <x>300</x>
-            <y>737</y>
+            <x>499</x>
+            <y>857</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state43</text>
         <uniqueID>44</uniqueID>
         <dimension>
-            <x>290</x>
-            <y>517</y>
+            <x>442</x>
+            <y>781</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state44</text>
         <uniqueID>45</uniqueID>
         <dimension>
-            <x>344</x>
-            <y>517</y>
+            <x>680</x>
+            <y>662</y>
         </dimension>
     </node>
     <edge>
@@ -264,7 +264,7 @@
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>include-lib c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>1</sourceID>
@@ -324,7 +324,7 @@
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>primitive-types c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>2</sourceID>
@@ -390,7 +390,7 @@ equals(input, "main(int argc, char **argv)"))</matcherParameter>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-structure c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>3</sourceID>
@@ -452,7 +452,7 @@ equals(input, "main(int argc, char **argv)"))</matcherParameter>
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-structure c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>10</sourceID>
@@ -515,7 +515,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-functions c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>11</sourceID>
@@ -578,7 +578,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-functions c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>12</sourceID>
@@ -640,7 +640,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-structure c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>13</sourceID>
@@ -760,7 +760,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>include-lib c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>1</sourceID>
@@ -820,7 +820,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>include-lib c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>1</sourceID>
@@ -881,7 +881,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>primitive-types c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>2</sourceID>
@@ -1002,7 +1002,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-structure c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>3</sourceID>
@@ -1063,7 +1063,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-structure c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>10</sourceID>
@@ -1183,7 +1183,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-structure c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>11</sourceID>
@@ -1243,7 +1243,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-functions c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>11</sourceID>
@@ -1303,7 +1303,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-structure c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>12</sourceID>
@@ -1364,7 +1364,7 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         </actionLabel>
         <preCheckedStatus>No-Applicable</preCheckedStatus>
         <rule>
-            <text>unnamed</text>
+            <text>basic-structure c-program-beginner</text>
             <indicator>-1</indicator>
         </rule>
         <sourceID>13</sourceID>
@@ -1491,6 +1491,26 @@ Se preferir utilizar a fun&#231;&#227;o 'puts', insira 'puts("Hello, World!");' 
         <destID>45</destID>
         <traversalCount>0</traversalCount>
     </edge>
+    <productionRule opportunities="1">
+        <ruleName>primitive-types</ruleName>
+        <productionSet>c-program-beginner</productionSet>
+        <label>Conhece tipos primitivos</label>
+    </productionRule>
+    <productionRule opportunities="2">
+        <ruleName>basic-functions</ruleName>
+        <productionSet>c-program-beginner</productionSet>
+        <label>Conhece fun&#231;&#245;es b&#225;sicas</label>
+    </productionRule>
+    <productionRule opportunities="1">
+        <ruleName>include-lib</ruleName>
+        <productionSet>c-program-beginner</productionSet>
+        <label>Conhece bibliotecas b&#225;sicas</label>
+    </productionRule>
+    <productionRule opportunities="3">
+        <ruleName>basic-structure</ruleName>
+        <productionSet>c-program-beginner</productionSet>
+        <label>Conhece estrutura b&#225;sica</label>
+    </productionRule>
     <EdgesGroups ordered="true"></EdgesGroups>
 </stateGraph>
 
